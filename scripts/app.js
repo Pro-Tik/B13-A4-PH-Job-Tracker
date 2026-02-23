@@ -83,3 +83,17 @@ const jobs = [
 ];
 
 
+//   DOM ELEMENTS
+
+const jobsContainer = document.getElementById("jobsContainer");
+const jobTabs = document.querySelectorAll(".jobsbtn");
+const jobCount = document.getElementById("jobCount");
+
+
+//   APP STATE (current selected tab)
+
+let currentFilter = "all";
+
+
+  //STATUS BADGE FUNCTION
+
