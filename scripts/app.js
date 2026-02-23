@@ -203,6 +203,18 @@ function renderJobs() {
 
 
 
+//  DELETE JOB
+
+function deleteJob(id) {
+
+  const index = jobs.findIndex(function (j) {
+    return j.id === id;
+  });
+
+  jobs.splice(index, 1);
+  renderJobs();
+}
+
 
 //   TAB CLICK LOGIC
 
