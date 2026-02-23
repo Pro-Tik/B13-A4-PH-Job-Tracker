@@ -106,7 +106,7 @@ function getStatusBadge(status) {
     return `<span class="bg-red-100 text-red-700 text-xs px-2 py-1 rounded font-semibold">REJECTED</span>`;
   }
 
-  return `<span class="bg-blue-100 text-blue-700 text-xs px-2 py-1 rounded font-semibold">NOT APPLIED</span>`;
+  return `<span class="bg-gray-300 text-gray-500 text-xs px-2 py-1 rounded font-semibold">NOT APPLIED</span>`;
 }
 
 
