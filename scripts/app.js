@@ -201,7 +201,17 @@ function renderJobs() {
 }
 
 
+//   UPDATE JOB STATUS
 
+function updateStatus(id, status) {
+
+  const job = jobs.find(function (j) {
+    return j.id === id;
+  });
+
+  job.status = status;
+  renderJobs();
+}
 
 //  DELETE JOB
 
