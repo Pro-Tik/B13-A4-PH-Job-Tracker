@@ -83,7 +83,7 @@ const jobs = [
 ];
 
 
-//   DOM ELEMENTS
+//   DOM ELEMENTS oe getting them
 
 const jobsContainer = document.getElementById("jobsContainer");
 const jobTabs = document.querySelectorAll(".jobsbtn");
